@@ -17,7 +17,7 @@ NS_ASSUME_NONNULL_BEGIN
  *
  * @param url The url for the image.
  */
-- (void)setImageWithURL:(nullable NSURL *)url NS_REFINED_FOR_SWIFT;
+- (void)setImageWithURL:(nullable NSURL *)url;
 
 @end
 
