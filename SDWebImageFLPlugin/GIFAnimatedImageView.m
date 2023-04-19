@@ -6,6 +6,7 @@
 //
 
 #import "GIFAnimatedImageView.h"
+#import "FLAnimatedImageView+WebCache.h"
 
 @implementation GIFAnimatedImageView
 
