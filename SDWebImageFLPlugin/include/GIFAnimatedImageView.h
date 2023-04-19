@@ -38,7 +38,7 @@ NS_ASSUME_NONNULL_BEGIN
  *                       indicating if the image was retrieved from the local cache or from the network.
  *                       The fourth parameter is the original image url.
  */
-- (void)fl_setImageWithURL:(nullable NSURL *)url
+- (void)setImageWithURL:(nullable NSURL *)url
           placeholderImage:(nullable UIImage *)placeholder
                    options:(SDWebImageOptions)options
                    context:(nullable SDWebImageContext *)context

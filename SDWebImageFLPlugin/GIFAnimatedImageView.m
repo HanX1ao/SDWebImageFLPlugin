@@ -10,7 +10,7 @@
 
 @implementation GIFAnimatedImageView
 
-- (void)fl_setImageWithURL:(nullable NSURL *)url
+- (void)setImageWithURL:(nullable NSURL *)url
           placeholderImage:(nullable UIImage *)placeholder
                    options:(SDWebImageOptions)options
                    context:(nullable SDWebImageContext *)context
