@@ -10,8 +10,19 @@
 
 @implementation GIFAnimatedImageView
 
-- (void)setImageWithURL:(nullable NSURL *)url {
-    [self fl_setImageWithURL:url placeholderImage:nil options:0 progress:nil completed:nil];
+- (void)fl_setImageWithURL:(nullable NSURL *)url
+          placeholderImage:(nullable UIImage *)placeholder
+                   options:(SDWebImageOptions)options
+                   context:(nullable SDWebImageContext *)context
+                  progress:(nullable SDImageLoaderProgressBlock)progressBlock
+                 completed:(nullable SDExternalCompletionBlock)completedBlock {
+    [self fl_setImageWithURL:url
+            placeholderImage:placeholder
+                     options:options
+                     context:context
+                    progress:progressBlock
+                   completed:completedBlock
+    ];
 }
 
 @end
