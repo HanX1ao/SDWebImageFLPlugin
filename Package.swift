@@ -32,9 +32,9 @@ let package = Package(
             name: "SDWebImageFLPlugin",
             dependencies: ["SDWebImage", "FLAnimatedImage"],
             path: "SDWebImageFLPlugin",
-//            exclude: [ "Info.plist" ],
-//            sources: [ "FLAnimatedImageView+WebCache.m", "SDFLAnimatedImage.m", "Test.m" ],
-//            publicHeadersPath: "include",
+            exclude: [ "Info.plist" ],
+            sources: [ "FLAnimatedImageView+WebCache.m", "SDFLAnimatedImage.m", "Test.m" ],
+            publicHeadersPath: "include",
             cSettings: [
                 .headerSearchPath("include")
             ]
