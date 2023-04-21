@@ -65,6 +65,7 @@ SDWebImageContextOption _Nonnull const SDWebImageContextPredrawingEnabled = @"pr
     if (context[SDWebImageContextOptimalFrameCacheSize]) {
         optimalFrameCacheSize = [context[SDWebImageContextOptimalFrameCacheSize] unsignedIntegerValue];
     }
+    NSLog(@"================%ld", optimalFrameCacheSize);
     FLAnimatedImage *animatedImage = [[FLAnimatedImage alloc] initWithAnimatedGIFData:data optimalFrameCacheSize:optimalFrameCacheSize predrawingEnabled:predrawingEnabled];
     if (!animatedImage) {
         return nil;
